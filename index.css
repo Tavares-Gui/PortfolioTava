@@ -1,0 +1,75 @@
+/*================================== ESTILIZACAO DO BODY ==================================*/
+body
+{
+    background-color: #99A3A4;
+}
+
+/* ESTILIZACAO DA MAIN */
+main
+{
+    display: flex;
+    height: 100%;
+}
+
+/*================================== ESTILIZACAO DA MINHA LOGO ==================================*/
+.minhaLogo
+{
+    margin-top: 1%;
+    margin-left: 45%;
+    width: 10%;
+    border-radius: 20%;
+}
+
+/*================================== ESTILIZACAO DOS TITULOS E SUBTITULOS ==================================*/
+nav h1
+{
+    text-align: center;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 300%;
+}
+
+nav h5
+{
+    text-align: center;
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+/*================================== ESTILIZAÇÃO DO DROPDOWN ==================================*/
+.btn
+{
+    margin-left: 39%;
+    background-color: #99A3A4;
+}
+
+.btnInfo
+{
+    margin-top: 43%;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .btn
+    {
+        margin-left: 32%;
+    }
+}
+
+/*================================== ESTILIZAÇÃO DAS IMAGENS ==================================*/
+.eu
+{
+    height: 100vh;
+    width: 3000px;
+}
+
+.boschLogo
+{
+    margin-top: 63%;
+    margin-left: 36%;
+    height: 5%;
+    width: 28%;
+}
